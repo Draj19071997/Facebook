@@ -154,8 +154,6 @@ public class xmlTest1
 			System.out.println("TC failed : Sign Up popup not opened");
 		}
 		
-		
-		
 	}
 	
 	@Test
