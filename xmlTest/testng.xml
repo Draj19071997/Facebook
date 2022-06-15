@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Facebook Login Page">
+  <test thread-count="5" name="Login Page Validation">
+    <classes>
+      <class name="xmlTest.xmlTest1">
+       <methods>
+        <include name="setup"/>
+        <include name="HomePage_Text"/>
+        <include name="Create_New_Account"/>
+        <include name="Create_a_Page"/>
+        <include name="Forgot_Password_displayed"/>
+        <include name="Close"/>
+       </methods>
+      </class>   
+    </classes>
+  </test> <!-- Login Page Validation -->
+  
+  <test thread-count="5" name="Login with invalid Credential Validation">
+    <classes>
+      <class name="xmlTest.xmlTest1">
+       <methods>
+        <include name="setup"/>
+        <include name="Invalid_Login_Cred"/>
+        <include name="Close"/>
+       </methods>
+      </class>   
+    </classes>
+  </test> <!-- Login Page Validation -->
+</suite> <!-- Facebook Login Page -->

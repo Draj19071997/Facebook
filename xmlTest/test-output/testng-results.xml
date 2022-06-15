@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="18" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-12T14:24:39 IST" name="Facebook Login Page" finished-at="2022-06-12T14:25:45 IST" duration-ms="66166">
+    <groups>
+    </groups>
+    <test started-at="2022-06-12T14:24:39 IST" name="Login Page Validation" finished-at="2022-06-12T14:25:09 IST" duration-ms="30121">
+      <class name="xmlTest.xmlTest1">
+        <test-method signature="setup()[pri:0, instance:xmlTest.xmlTest1@c33b74f]" started-at="2022-06-12T14:24:39 IST" name="setup" finished-at="2022-06-12T14:25:08 IST" duration-ms="28949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePage_Text()[pri:0, instance:xmlTest.xmlTest1@c33b74f]" started-at="2022-06-12T14:25:08 IST" name="HomePage_Text" finished-at="2022-06-12T14:25:08 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_Text -->
+        <test-method signature="Create_New_Account()[pri:0, instance:xmlTest.xmlTest1@c33b74f]" started-at="2022-06-12T14:25:08 IST" name="Create_New_Account" finished-at="2022-06-12T14:25:08 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_New_Account -->
+        <test-method signature="Create_a_Page()[pri:0, instance:xmlTest.xmlTest1@c33b74f]" started-at="2022-06-12T14:25:08 IST" name="Create_a_Page" finished-at="2022-06-12T14:25:08 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_a_Page -->
+        <test-method signature="Forgot_Password_displayed()[pri:0, instance:xmlTest.xmlTest1@c33b74f]" started-at="2022-06-12T14:25:08 IST" name="Forgot_Password_displayed" finished-at="2022-06-12T14:25:08 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgot_Password_displayed -->
+        <test-method signature="Close()[pri:0, instance:xmlTest.xmlTest1@c33b74f]" started-at="2022-06-12T14:25:08 IST" name="Close" finished-at="2022-06-12T14:25:09 IST" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- xmlTest.xmlTest1 -->
+    </test> <!-- Login Page Validation -->
+    <test started-at="2022-06-12T14:25:09 IST" name="Login with invalid Credential Validation" finished-at="2022-06-12T14:25:45 IST" duration-ms="35957">
+      <class name="xmlTest.xmlTest1">
+        <test-method signature="setup()[pri:0, instance:xmlTest.xmlTest1@5158b42f]" started-at="2022-06-12T14:25:09 IST" name="setup" finished-at="2022-06-12T14:25:36 IST" duration-ms="27542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Invalid_Login_Cred()[pri:0, instance:xmlTest.xmlTest1@5158b42f]" started-at="2022-06-12T14:25:36 IST" name="Invalid_Login_Cred" finished-at="2022-06-12T14:25:44 IST" duration-ms="7295" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: The result of the xpath expression "//div[@class='_9ay7']/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-7R0I4L2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c79623f3ce23b193610174f1edca58a, findElement {using=xpath, value=//div[@class='_9ay7']/text()}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ANILME~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49465/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c79623f3ce23b193610174f1edca58a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//div[@class='_9ay7']/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-7R0I4L2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c79623f3ce23b193610174f1edca58a, findElement {using=xpath, value=//div[@class='_9ay7']/text()}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ANILME~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49465/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c79623f3ce23b193610174f1edca58a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at xmlTest.xmlTest1.Invalid_Login_Cred(xmlTest1.java:90)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Login_Cred -->
+        <test-method signature="Close()[pri:0, instance:xmlTest.xmlTest1@5158b42f]" started-at="2022-06-12T14:25:44 IST" name="Close" finished-at="2022-06-12T14:25:45 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- xmlTest.xmlTest1 -->
+    </test> <!-- Login with invalid Credential Validation -->
+  </suite> <!-- Facebook Login Page -->
+</testng-results>
