@@ -11,7 +11,7 @@ public class xmlTest1
 	WebDriver driver;
 	static 
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Anil Mesta\\Desktop\\TestJava\\chromedriver_win32\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Anil Mesta\\Desktop\\TestJava\\chromedriver_win32\\chromedriver.exe");
 		
 	}
 	
